@@ -1,5 +1,9 @@
-# Informações; Numero de visitantes/Cidades
-# import collections
+"""
+Informações; Numero de visitantes/Cidades
+Uso da livraria collections
+
+OBS: Os dados na lista 'cidades' serão perdidos se o programa for reiniciado.
+"""
 from collections import Counter
 
 cmd = input("Digite 'entrar' ou 'sair': ")
